@@ -5,9 +5,9 @@ A Discord bot with a `!l` command for light roast lines.
 ## Behavior
 
 - `!l @user`  
-  Sends a random roast line.
+  Sends a randomly generated roast line (dynamic, not a fixed sentence list).
 - `!l @user optional description`  
-  Sends a roast line that uses the description (not random).
+  Sends a description-based roast line generated deterministically from that description (not random).
 
 Example:
 
